@@ -7,24 +7,34 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main class="business-card">
-      <article>
+    <main class="main">
+      <article class="business-card">
         <img
           class="business-card__image"
           src="img/przyciete3.png"
           alt="Paweł Beder zdjęcie twarzy"
         />
-        <header>
-          <h1 class="business-card__title">Paweł Beder</h1>
-          <p class="business-card__subtitle">Stanowisko</p>
-        </header>
-        <p>
-          Programista z kilkunastoletnim doświadczeniem, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent
-          i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w
-          swojej twórczości ocierając się o sztukę.
-        </p>
-        <p>W sieci: Facebook, GitHub, Instagram.</p>
+        <aside>
+          <header class="business-card__header">
+            <h1 class="business-card__name">Paweł Beder</h1>
+            <p class="business-card__position">Senior Java Developer</p>
+          </header>
+          <p
+            class="business-card__description business-card__description--with-margin"
+          >
+            Programista z
+            <strong class="special-yellow"
+              >kilkunastoletnim doświadczeniem</strong
+            >, fotograf, operator drona, właściciel Sokoła Millennium (na razie
+            tylko z Lego), prelegent i szkoleniowiec. Uwielbia eksperymentować z
+            nowymi technologiami, w swojej twórczości ocierając się o sztukę.
+          </p>
+          <p class="business-card__description">
+            W sieci: <a class="business-card__link" href="#">Facebook</a>,
+            <a class="business-card__link" href="#">GitHub</a>,
+            <a class="business-card__link" href="#">Instagram</a>.
+          </p>
+        </aside>
       </article>
     </main>
   </body>
