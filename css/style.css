@@ -1,0 +1,20 @@
+body {
+  background: #2c2141;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-card {
+  width: 624px;
+  height: 320px;
+  background: #f8f8f8;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.business-card__image {
+  width: 148px;
+  height: 148px;
+}
